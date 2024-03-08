@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Grinto-Black;
+  src: url(./Assets/fonts/ABCGintoNordCondensed-Black-Trial-BF651b7b7386a06.woff);
+}
+@font-face {
+  font-family: Grinto-Bold;
+  src: url(./Assets/fonts//ABCGintoNormal-Bold-Trial-BF651b7b7309f45.woff);
+}
+@font-face {
+  font-family: Gg-Bold;
+  src: url(./Assets/fonts/gg-sans-Bold.woff);
+}
+@font-face {
+  font-family: Gg-SemiBold;
+  src: url(./Assets/fonts/gg-sans-Semibold.woff);
+}
+@font-face {
+  font-family: Gg-Medium;
+  src: url(./Assets/fonts/gg-sans-Medium.woff);
+}
+@font-face {
+  font-family: Gg-Regular;
+  src: url(./Assets/fonts/gg-sans-Regular.woff);
+}

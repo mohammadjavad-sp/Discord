@@ -1,0 +1,11 @@
+.card-support {
+  width: 17em;
+  background: white;
+  border-radius: 1em;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.4em;
+  box-shadow: 0.3em 0.3em black;
+}
+
+

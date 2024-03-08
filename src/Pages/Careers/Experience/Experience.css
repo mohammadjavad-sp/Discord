@@ -1,0 +1,35 @@
+.card-exp {
+  background: #070F2B;
+  transition: 1s ease-in-out;
+  clip-path: polygon(
+    30px 0%,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0 100%,
+    0% 30px
+  );
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-exp span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.card-exp .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+
+}
+
+.card-exp .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

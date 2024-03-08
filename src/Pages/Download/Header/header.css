@@ -1,0 +1,103 @@
+.header-btns::-webkit-scrollbar {
+  display: none;
+}
+.header-btns {
+  overflow: hidden;
+}
+.btn-download-header {
+  outline: none;
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+.btn-download-header:hover {
+  border-color: #404eed;
+}
+
+.btn-download-header::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border-top: 2px solid #404eed;
+  border-left: 2px solid #404eed;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn-download-header::after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  border-bottom: 2px solid #404eed;
+  border-right: 2px solid #404eed;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn-download-header:hover {
+  color: #8f96e9;
+}
+
+.btn-download-header:hover::after,
+.btn-download-header:hover::before {
+  height: 20px;
+  width: 20px;
+  opacity: 1;
+}
+
+/* === removing default button style ===*/
+.test-btn {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.test-btn {
+  --border-right: 6px;
+  --text-stroke-color: #fff;
+  --animation-color: #404eed;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px lightskyblue;
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.test-btn:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+  color: #404eed;
+}

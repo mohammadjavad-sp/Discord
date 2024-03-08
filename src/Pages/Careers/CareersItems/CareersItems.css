@@ -1,0 +1,15 @@
+.careerItem:nth-of-type(3) {
+  background-color: #f6f6f6;
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+@media screen and (max-width:768px) {
+  .careerItem:nth-of-type(3) {
+    padding: 20px;
+  }
+}
+.stars {
+  background: url(../../../Assets/images/careers-page/stars.svg) no-repeat;
+  background-size: contain;
+}

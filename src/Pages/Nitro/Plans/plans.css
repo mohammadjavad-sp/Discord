@@ -1,0 +1,36 @@
+.tableHandler::before {
+  content: "";
+  display: block;
+  width: 18%;
+  height: 100%;
+  border: 2px solid purple;
+  border-radius: 15px;
+  position: absolute;
+  right: 10px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .tableHandler::before {
+    right: 0;
+    width: 21%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .tableHandler::before {
+    display: none;
+  }
+}
+.plans::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 30px;
+  background: url(../../../Assets/images/nitro-page/table/popular.svg) no-repeat;
+  position: absolute;
+  right: 130px;
+  top: 273px;
+}
+@media screen and (max-width: 1280px) {
+  .plans::before {
+    display: none;
+  }
+}
