@@ -10,18 +10,18 @@ import Safety from "./Pages/Safety/Safety";
 import Support from "./Pages/Support/Support";
 
 const routes = [
-  { path: "/Discord/", element: <Home /> },
-  { path: "/Discord/Download", element: <Download /> },
+  { path: "/discord/", element: <Home /> },
+  { path: "/discord/Download", element: <Download /> },
   {
-    path: "/Discord/Nitro",
+    path: "/discord/Nitro",
     element: <Nitro />,
   },
-  { path: "/Discord/Discover", element: <Discover /> },
-  { path: "/Discord/Discover/:product", element: <Product /> },
-  { path: "/Discord/Safety", element: <Safety /> },
-  { path: "/Discord/Support", element: <Support /> },
-  { path: "/Discord/Blog", element: <Blog /> },
-  { path: "/Discord/Careers", element: <Careers /> },
-  { path: "/Discord/Login", element: <Login /> },
+  { path: "/discord/Discover", element: <Discover /> },
+  { path: "/discord/Discover/:product", element: <Product /> },
+  { path: "/discord/Safety", element: <Safety /> },
+  { path: "/discord/Support", element: <Support /> },
+  { path: "/discord/Blog", element: <Blog /> },
+  { path: "/discord/Careers", element: <Careers /> },
+  { path: "/discord/Login", element: <Login /> },
 ];
 export default routes;

@@ -7,14 +7,14 @@ const Navbar = () => {
     <nav className="text-white bg-transparent pt-3 z-[999] ">
       <div className="max-w-screen-xl px-[50px] flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
-          to="/Discord/"
+          to="/discord/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={logo} className="h-8" />
         </Link>
         <div className="flex lg:order-2">
           <NavLink
-            to="/Discord/Login"
+            to="/discord/Login"
             type="button"
             className="text-black font-bold bg-white hover:text-[#404EED] rounded-full text-sm px-4 py-2 text-center hidden sm:block hover:shadow-lg"
           >
@@ -39,7 +39,7 @@ const Navbar = () => {
           <ul className="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg lg:space-x-8 gap-3 lg:flex-row lg:mt-0 lg:border-0 ">
             <li>
               <Link
-                to="/Discord/Download"
+                to="/discord/Download"
                 className="block py-2 px-3 md:p-0  rounded hover:underline text-white"
               >
                 Download
@@ -47,7 +47,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Nitro"
+                to="/discord/Nitro"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Nitro
@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Discover"
+                to="/discord/Discover"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Discover
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Safety"
+                to="/discord/Safety"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Safety
@@ -71,7 +71,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Support"
+                to="/discord/Support"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Support
@@ -79,7 +79,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Blog"
+                to="/discord/Blog"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Blog
@@ -87,7 +87,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Discord/Careers"
+                to="/discord/Careers"
                 className="block py-2 px-3 md:p-0  rounded hover:underline  text-white "
               >
                 Careers
