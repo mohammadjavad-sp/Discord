@@ -1,14 +1,13 @@
-import Navbar from "../../../Components/Navbar/Navbar";
 import video from "../../../Assets/video/ff96c6cc388e99cdcdd33e996ba9f893 (2).mp4";
-import gradiant from "../../../Assets/images/nitro-page/gradiant.svg";
 import bird from "../../../Assets/images/nitro-page/bird.png";
 import "./header.css";
+import Menu from "../../../Components/Menu/Menu";
 const Header = () => {
   document.body.style.overflow = "hidden";
   return (
     <>
-      <header className="relative overflow-hidden ">
-        <div className="w-full h-[750px] mx-auto ">
+      <header className="relative overflow-hidden">
+        <div className="w-full lg:h-[750px] mx-auto">
           <video
             src={video}
             loop
@@ -21,7 +20,7 @@ const Header = () => {
             <source src={video} type="video/mp4" />
           </video>
           <div className="header-nitro lg:hidden overflow-hidden  w-full ">
-            <Navbar />
+            <Menu />
             <div className="text-white md:w-6/12 sm:w-8/12 w-10/12 mx-auto mt-10">
               <h1 className=" font-GrintoBlack leading-tight text-center text-[50px] overflow-hidden">
                 Unleash <br /> more fun <br /> with Nitro
@@ -35,7 +34,7 @@ const Header = () => {
           </div>
         </div>
         <div className="z-[999] absolute w-full top-0 lg:block hidden">
-          <Navbar />
+          <Menu />
         </div>
         <div className="text-white absolute xl:top-48 lg:top-32 xl:w-4/12 w-6/12 p-10 xl:left-[120px] lg:left-[80px] hidden lg:block">
           <h1 className=" font-GrintoBlack lg:text-[60px] lg:leading-[60px] overflow-hidden">

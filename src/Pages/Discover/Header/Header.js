@@ -1,4 +1,4 @@
-import Navbar from "../../../Components/Navbar/Navbar";
+import Menu from "../../../Components/Menu/Menu";
 import ax1 from "../../../Assets/images/discover-page/svgexport-1.svg";
 import ax2 from "../../../Assets/images/discover-page/svgexport-2.svg";
 import "./Header.css";
@@ -15,10 +15,10 @@ const Header = () => {
   };
   return (
     <header className="header-discover relative lg:h-[444px]">
-      <div className="absolute w-full z-50">
-        <Navbar />
+      <div className="lg:absolute w-full z-50">
+        <Menu />
       </div>
-      <div className="lg:absolute mt-32 lg:mt-0 mx-auto lg:left-[30%] lg:top-[130px] text-white lg:w-[40%] w-[87%]">
+      <div className="lg:absolute mt-6 mx-auto lg:left-[30%] lg:top-[130px] text-white lg:w-[40%] w-[87%]">
         <h1 className="font-GrintoBlack text-[50px] leading-[50px] overflow-hidden text-center">
           FIND YOUR COMMUNITY ON DISCORD
         </h1>

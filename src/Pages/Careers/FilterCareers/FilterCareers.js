@@ -65,7 +65,7 @@ const FilterCareers = () => {
           </h2>
           <div className="lg:ps-16 px-5 mt-4 pb-14 flex flex-col sm:flex-row gap-5">
             <div className="hover:shadow-xl cursor-pointer w-full sm:w-[49%] lg:w-[400px] bg-white h-[200px] sm:h-[250px] rounded-xl  p-6 flex flex-col justify-between">
-              <h3 className="font-GrintoBold text-[24px] leading-[40px] md:text-[36px]">Senior Copywriter</h3>
+              <h3 className="font-GrintoBold overflow-hidden text-[24px] leading-[40px] md:text-[36px]">Senior Copywriter</h3>
               <div className="flex justify-between gap-5 items-center">
                 <p className="font-GgMedium text-[18px]">
                   San Francisco, CA or Remote (U.S.)
@@ -74,7 +74,7 @@ const FilterCareers = () => {
               </div>
             </div>
             <div className="hover:shadow-xl cursor-pointer w-full sm:w-[49%] lg:w-[400px] bg-white h-[200px] sm:h-[250px] rounded-xl  p-6 flex flex-col justify-between">
-              <h3 className="font-GrintoBold leading-[40px] text-[24px] md:text-[36px]">
+              <h3 className="font-GrintoBold overflow-hidden leading-[40px] text-[24px] md:text-[36px]">
                 Senior Production Designer
               </h3>
               <div className="flex justify-between gap-5 items-center">

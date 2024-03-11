@@ -1,5 +1,4 @@
-import "./Header.css";
-import Navbar from "../../../Components/Navbar/Navbar";
+import Navbar from "../../../Components/Menu/Menu";
 import img1 from "../../../Assets/images/header/1.svg";
 import img2 from "../../../Assets/images/header/2.png";
 import animate from "../../../Assets/animations/home-animate.json";
@@ -19,7 +18,7 @@ const Header = () => {
   return (
     <>
       <header className="w-full relative h-fit   bg-[#404EED] ">
-        <Navbar />
+        <Navbar/>
         <section className="text-white  xl:pt-[90px] lg:pt-[50px] pb-[50px]">
           <h1 className="font-GrintoBlack text-[4rem] px-5 text-center ">
             IMAGINE A PLACE...

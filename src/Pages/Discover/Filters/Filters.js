@@ -1,5 +1,4 @@
 import { FaMagnifyingGlass, FaCartShopping } from "react-icons/fa6";
-import { FaUser } from "react-icons/fa";
 import { IoGameController, IoMusicalNotes } from "react-icons/io5";
 import { PiTelevisionBold, PiStudentFill } from "react-icons/pi";
 import { GiMaterialsScience } from "react-icons/gi";

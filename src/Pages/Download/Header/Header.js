@@ -1,10 +1,10 @@
-import Navbar from "../../../Components/Navbar/Navbar";
 import imgHeader from "../../../Assets/images/download-page/img-header.svg";
 import "./header.css";
+import Menu from "../../../Components/Menu/Menu";
 const Header = () => {
   return (
     <header className="bg-[#23272A]">
-      <Navbar />
+      <Menu />
       <div className="flex lg:px-[90px] px-10 flex-col lg:flex-row lg:py-36 py-10  items-center container">
         <div className="text-white flex flex-1 flex-col overflow-hidden text-center lg:text-start">
           <h1 className="font-GrintoBlack text-[60px] leading-[70px] overflow-hidden">

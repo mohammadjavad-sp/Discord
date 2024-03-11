@@ -1,4 +1,4 @@
-import { Button, Checkbox, Label, TextInput } from "flowbite-react";
+import { Checkbox, Label, TextInput } from "flowbite-react";
 import "./Login.css";
 import { FaFacebookF, FaGoogle } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -109,7 +109,12 @@ const Login = () => {
               Remember me
             </Label>
           </div>
-          <button className="!bg-blue-600 rounded-full text-white font-GgBold py-2" type="submit">Login</button>
+          <button
+            className="!bg-blue-600 rounded-full text-white font-GgBold py-2"
+            type="submit"
+          >
+            Login
+          </button>
           <h5 className="font-GgSemiBold text-slate-300">
             Need an account?{" "}
             <span className="text-[#049DEA] font-GgBold">Register</span>

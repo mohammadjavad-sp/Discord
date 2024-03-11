@@ -1,4 +1,4 @@
-import Navbar from "../../../Components/Navbar/Navbar";
+import Menu from "../../../Components/Menu/Menu";
 import img1 from "../../../Assets/images/careers-page/1.webp";
 import img2 from "../../../Assets/images/careers-page/2.webp";
 import img3 from "../../../Assets/images/careers-page/3.webp";
@@ -6,9 +6,9 @@ import img4 from "../../../Assets/images/careers-page/4.webp";
 import img5 from "../../../Assets/images/careers-page/5.webp";
 const Header = () => {
   return (
-    <header className="bg-[#5865F2] text-white  ">
-      <Navbar />
-      <div className="text-center mx-auto lg:w-[50%] w-[90%] my-5 lg:my-14 mb-10">
+    <header className="bg-[#5865F2]">
+      <Menu />
+      <div className="text-center text-white mx-auto lg:w-[50%] w-[90%] my-5 lg:my-14 mb-10">
         <h1 className="font-GrintoBlack text-[60px]">WORK AT DISCORD</h1>
         <p className="font-GgBold text-[24px]">
           Discord is home to (com) passionate people who believe in our mission

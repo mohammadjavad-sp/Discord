@@ -9,3 +9,6 @@
 .back-filter{
     background-color: #E1E2E4;
 }
+.discover-item:last-child{
+    display: none;
+}

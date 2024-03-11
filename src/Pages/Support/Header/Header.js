@@ -1,6 +1,5 @@
 import Lottie from "react-lottie";
-import Navbar from "../../../Components/Navbar/Navbar";
-import "./header.css";
+import Menu from "../../../Components/Menu/Menu";
 import supAnimat1 from "../../../Assets/animations/supHeader1.json";
 import supAnimat2 from "../../../Assets/animations/supHeader2.json";
 const Header = () => {
@@ -22,7 +21,7 @@ const Header = () => {
   };
   return (
     <header className=" bg-[#40679E]">
-      <Navbar />
+      <Menu />
       <div className="support-header mx-auto overflow-hidden lg:h-[300px] relative flex items-center w-[95%] justify-between flex-col lg:flex-row mt-6 pb-3">
         <div className="xl:w-[400px] w-[300px] hidden lg:block">
           <Lottie options={defaultOptions2} />

@@ -1,14 +1,23 @@
-import footerLogo from "../../Assets/images/Discord-logo-footer.png";
 import { FaXTwitter, FaTelegram } from "react-icons/fa6";
+import animate from "../../Assets/animations/animate-footer.json"
 import "./Footer.css"
+import Lottie from "react-lottie";
 const Footer = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animate, 
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <>
       <footer className="bg-[#191919] text-center sm:text-left border-t-[1px] border-[#3d3b4027] ">
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between ">
-            <div className="text-teal-600 ">
-              <img src={footerLogo} className="w-40 mx-auto block" />
+            <div className="w-20 mx-auto sm:mx-0">
+              <Lottie options={defaultOptions} speed={0.5} />
             </div>
 
             <ul className="mt-8 flex justify-center  gap-6 sm:mt-0 sm:justify-end overflow-hidden">

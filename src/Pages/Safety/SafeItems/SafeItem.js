@@ -3,7 +3,6 @@ import safe2 from "../../../Assets/images/safety-page/2.svg";
 import safe3 from "../../../Assets/images/safety-page/3.svg";
 import safe4 from "../../../Assets/images/safety-page/4.svg";
 import safe5 from "../../../Assets/images/safety-page/5.svg";
-import safe6 from "../../../Assets/images/safety-page/6+.png";
 import safe7 from "../../../Assets/images/safety-page/7.svg";
 import SafeItems from "./SafeItems";
 const SafeItem = () => {

@@ -11,9 +11,6 @@
   }
 }
 
-/* Yoinked from CodePen, but improved the animation
-so that it is smooth among other more minor things */
-
 .codepen-button {
   display: inline-block;
   cursor: pointer;

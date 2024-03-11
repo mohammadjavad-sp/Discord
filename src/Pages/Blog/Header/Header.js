@@ -1,11 +1,20 @@
-import Navbar from "../../../Components/Navbar/Navbar";
+import { Link } from "react-router-dom";
+import blog from "../../../Assets/images/blog-page/blog.svg";
 import pic from "../../../Assets/images/blog-page/header-pic.png";
+import { FaAngleLeft } from "react-icons/fa6";
 const Header = () => {
   return (
     <>
-      <section className="bg-[#404EED] lg:h-[420px] md:h-[300px] h-[200px]">
-        <Navbar />
+      <section className="bg-[#404EED] py-7 px-10 lg:px-20 flex justify-between items-center ">
+        <img src={blog} className="h-9 cursor-pointer" />
+        <Link to="/discord">
+          <FaAngleLeft
+            color="white"
+            className="border-[1px] lg:border-2 lg:w-8 lg:h-8 cursor-pointer p-1 w-7 h-7 rounded-lg"
+          />
+        </Link>
       </section>
+      <div className="lg:h-[320px] md:h-[200px] h-[100px] bg-[#404EED] w-full"></div>
       <div className="w-fit mx-auto absolute top-[100px] lg:top-[140px] left-[5%] ">
         <img src={pic} className=" w-[95%] rounded-lg " />
       </div>

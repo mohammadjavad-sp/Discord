@@ -1,7 +1,7 @@
 import pic from "../../../Assets/images/discordItems/preFooter.svg";
 import "./preFooterHome.css";
 import starPic from "../../../Assets/images/discordItems/preFooter2.svg";
-import { IoMdCodeDownload, IoMdDownload } from "react-icons/io";
+import { IoMdDownload } from "react-icons/io";
 const PreFooterHome = () => {
   return (
     <>

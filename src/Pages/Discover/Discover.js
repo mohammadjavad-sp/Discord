@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Filters from "./Filters/Filters";
 import Header from "./Header/Header";
 
@@ -6,6 +7,7 @@ const Discover = () => {
         <>
         <Header/>
         <Filters/>
+        <Footer/>
         </>
      );
 }

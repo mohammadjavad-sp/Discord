@@ -3,7 +3,6 @@ import nitro from "../../../Assets/images/nitro-page/table/nitro2.svg";
 import { FaCheck } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import TableItems from "./TableItems";
-import BtnTable from "./BtnTable";
 import "./plans.css"
 const Plans = () => {
   const tableItems = [

@@ -1,4 +1,4 @@
-import Navbar from "../../../Components/Navbar/Navbar";
+import Menu from "../../../Components/Menu/Menu";
 import Lottie from "react-lottie";
 import animationData from "../../../Assets/animations/safe.json";
 import "./header.css";
@@ -6,7 +6,7 @@ const Header = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: animationData, // specify the animation JSON data
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-[#5865F2]">
-        <Navbar />
+        <Menu />
         <div className="flex items-center flex-wrap lg:flex-nowrap text-white justify-between mx-auto w-[87%]">
           <div className="lg:w-6/12 text-center lg:text-start mt-10 lg:mt-0">
             <h1 className="font-GrintoBlack overflow-hidden text-[50px] leading-[50px]">
