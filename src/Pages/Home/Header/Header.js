@@ -1,6 +1,7 @@
 import Navbar from "../../../Components/Menu/Menu";
 import img1 from "../../../Assets/images/header/1.svg";
 import img2 from "../../../Assets/images/header/2.png";
+import img3 from "../../../Assets/images/header/test.svg";
 import animate from "../../../Assets/animations/home-animate.json";
 import cloud from "../../../Assets/images/header/cloud.svg";
 import Btn from "../../../Components/Btn/Btn";
@@ -31,8 +32,8 @@ const Header = () => {
           </p>
           <img src={cloud} className="absolute bottom-0 hidden lg:block" />
           <img
-            src={img2}
-            className="absolute bottom-0 left-[-150px] hidden lg:block"
+            src={img3}
+            className="absolute bottom-0 left-[-320px] hidden lg:block"
           />
           <div className="lg:hidden max-w-[370px] mx-auto">
             <Lottie options={defaultOptions} />
