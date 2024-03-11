@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/discord/static/css/main.2460296e.css",
-    "main.js": "/discord/static/js/main.69ec86b9.js",
+    "main.css": "/discord/static/css/main.927476b0.css",
+    "main.js": "/discord/static/js/main.1a36b4b4.js",
     "static/media/ (2).mp4": "/discord/static/media/ff96c6cc388e99cdcdd33e996ba9f893 (2).544409aaa39b645fdbd5.mp4",
     "static/media/header-pic.png": "/discord/static/media/header-pic.b378b8ee8149953e4c15.png",
     "static/media/safety.mp4": "/discord/static/media/safety.cf37633d5c7dd531e7e0.mp4",
@@ -29,6 +29,7 @@
     "static/media/8.png": "/discord/static/media/8.729493e0fcce8d0036c0.png",
     "static/media/1.webp": "/discord/static/media/1.351d982f8cdfaaa29cdf.webp",
     "static/media/6.webp": "/discord/static/media/6.e09d07c9c3f4e7b1c15f.webp",
+    "static/media/test.svg": "/discord/static/media/test.ad0e2a5128d80e5d89e7db2ff89ba852.svg",
     "static/media/img-header.svg": "/discord/static/media/img-header.4e76ccece388aeee0444f0ded45b8d8c.svg",
     "static/media/ABCGintoNordCondensed-Black-Trial-BF651b7b7386a06.woff": "/discord/static/media/ABCGintoNordCondensed-Black-Trial-BF651b7b7386a06.79637e45bbd30c5be799.woff",
     "static/media/linux.svg": "/discord/static/media/linux.0ed47864547640c10c8c2a2f686b317a.svg",
@@ -108,11 +109,11 @@
     "static/media/gradiant.svg": "/discord/static/media/gradiant.03273d0eeac77d3fc3d3.svg",
     "static/media/svgexport-5.svg": "/discord/static/media/svgexport-5.ff64c57181ca3c5f0caa23aa7221d3c3.svg",
     "index.html": "/discord/index.html",
-    "main.2460296e.css.map": "/discord/static/css/main.2460296e.css.map",
-    "main.69ec86b9.js.map": "/discord/static/js/main.69ec86b9.js.map"
+    "main.927476b0.css.map": "/discord/static/css/main.927476b0.css.map",
+    "main.1a36b4b4.js.map": "/discord/static/js/main.1a36b4b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2460296e.css",
-    "static/js/main.69ec86b9.js"
+    "static/css/main.927476b0.css",
+    "static/js/main.1a36b4b4.js"
   ]
 }
