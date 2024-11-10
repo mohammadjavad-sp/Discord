@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <section className="bg-[#404EED] py-7 px-10 lg:px-20 flex justify-between items-center ">
         <img src={blog} className="h-9 cursor-pointer" />
-        <Link to="/discord">
+        <Link to="/">
           <FaAngleLeft
             color="white"
             className="border-[1px] lg:border-2 lg:w-8 lg:h-8 cursor-pointer p-1 w-7 h-7 rounded-lg"

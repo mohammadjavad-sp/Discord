@@ -51,12 +51,12 @@ const Menu = () => {
   };
   return (
     <Navbar className="bg-transparent !py-7 " theme={theme}>
-      <Link to="/discord">
+      <Link to="/">
         <img src={logoPic} className=" h-9" />
       </Link>
       <div className="flex lg:order-2 font-GrintoBold cursor-pointer">
         <Link
-          to="/discord/Login"
+          to="/Login"
           className="px-3 py-2 text-[15px] bg-white hover:text-[#404EED] rounded-full"
         >
           Login
@@ -66,43 +66,43 @@ const Menu = () => {
 
       <Navbar.Collapse className="border-2 lg:border-0  rounded-xl p-5 lg:p-0 mt-5 lg:mt-0">
         <Link
-          to="/discord/Download"
+          to="/Download"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Download
         </Link>
         <Link
-          to="/discord/Nitro"
+          to="/Nitro"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Nitro
         </Link>
         <Link
-          to="/discord/Discover"
+          to="/Discover"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Discover
         </Link>
         <Link
-          to="/discord/Safety"
+          to="/Safety"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Safety
         </Link>
         <Link
-          to="/discord/Support"
+          to="/Support"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Support
         </Link>
         <Link
-          to="/discord/Blog"
+          to="/Blog"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Blog
         </Link>
         <Link
-          to="/discord/Careers"
+          to="/Careers"
           className="!text-white text-[16px] px-2 !bg-transparent py-3 lg:py-0 cursor-pointer hover:underline"
         >
           Careers

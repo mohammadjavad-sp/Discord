@@ -19,7 +19,7 @@ const FilterItems = ({ data }) => {
           <div className="flex items-center justify-between lg:justify-start w-full lg:w-[80%] gap-3">
             <Rating name="read-only" value={data.rating.rate} readOnly />
             <Link
-              to={`/discord/Discover/${data.id}`}
+              to={`/Discover/${data.id}`}
               className="bg-blue-600 text-white rounded-xl px-5 py-2 lg:px-3 lg:py-1 hover:bg-blue-800 transition-all duration-200"
             >
               BUY
